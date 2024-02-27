@@ -14,6 +14,14 @@ export type UpdateUserParams = {
   username: string
   photo: string
 }
+export type SignUpInitialValues = {
+  emailAddress?: string | undefined
+  firstName?:  string | undefined
+  lastName?: string | undefined
+  phoneNumber?:string | undefined
+  username?: string| undefined
+  photo?: string| undefined
+}
 
 // ====== EVENT PARAMS
 export type CreateEventParams = {
